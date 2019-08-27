@@ -5,7 +5,7 @@
 
 const showDescription = () =>{
 
-    let description = document.querySelector('div')
+    let description = document.querySelectorAll('div')
     description.forEach(description=>{
         description.classList.toggle('show-description')
     })
