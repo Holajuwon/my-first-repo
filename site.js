@@ -5,7 +5,7 @@
 
 const showDescription = () =>{
 
-    let description = document.querySelectorAll('div')
+    let description = document.querySelectorAll('.first .second .dessert')
     description.forEach(description=>{
         description.classList.toggle('show-description')
     })
@@ -13,4 +13,4 @@ const showDescription = () =>{
     
 }
 
-document.querySelector('div').addEventListener('click', showDescription());
+document.querySelector('.first .second .dessert').addEventListener('click', showDescription());
