@@ -13,4 +13,4 @@ const showDescription = () =>{
     
 }
 
-document.querySelector('div').addEventListener('click', showDescription);
+document.querySelector('div').addEventListener('click', showDescription());
